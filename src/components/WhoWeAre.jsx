@@ -1,6 +1,6 @@
 export default function WhoWeAre() {
   return (
-    <div className="flex items-center pt-[5vh] pb-[10vh]   bg-[#111111]">
+    <div className="flex items-center pt-[5vh] pb-[10vh]   bg-[#121212]">
       <div className="flex flex-col  gap-5 md:gap-8 xl:gap-10 mx-[4%] md:mx-[5%]  xl:mx-[10%] 2xl:mx-[15%]">
         <h1 className="text-[#E62D2D]   text-4xl md:text-6xl  lg:text-7xl xl:text-8xl  font-bold leading-normal">
           What We have to Say About Our Company?

@@ -3,7 +3,7 @@ import { IoClose } from "react-icons/io5";
 
 const DrawerContent = ({ menu, closeDrawer }) => {
   return (
-    <div className="bg-[#121212] w-full md:w-[63%] lg:w-1/2 xl:w-1/3  p-4 shadow-md transition-transform duration-300 transform ease-in-out translate-x-0 ">
+    <div className="bg-[#121212] w-full md:w-[63%] lg:w-1/2 xl:w-1/3  p-4 shadow-md transform  translate-x-0 transition-transform duration-900 ease-in-out  ">
       <div className="flex justify-end">
         <button className=" p-2 rounded-full bg-gray-800" onClick={closeDrawer}>
           <IoClose className="w-7 h-7 text-red-500" />

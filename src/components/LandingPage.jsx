@@ -21,7 +21,7 @@ export default function LandingPage() {
             GET STARTED
           </button>
 
-          <div className="flex items-center text-xl md:text-2xl   text-[#E62D2D]  ">
+          <div className="flex items-center text-xl md:text-2xl   text-[#E62D2D] ">
             Learn More
           </div>
         </div>

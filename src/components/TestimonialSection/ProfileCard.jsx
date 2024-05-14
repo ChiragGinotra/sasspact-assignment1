@@ -8,7 +8,7 @@ export default function ProfileCard({
 }) {
   return (
     // items-center justify-center
-    <div className=" bg-[#111111] w-[300px] md:w-[600px] lg:w-[800px] xl:w-[1100px] rounded-lg shadow-lg p-6 md:p-10 flex flex-col gap-[3vh] ">
+    <div className=" bg-[#171717] w-[300px] md:w-[600px] lg:w-[800px] xl:w-[1100px] rounded-lg shadow-lg p-6 md:p-10 flex flex-col gap-[3vh] ">
       {/* section-1 */}
       <div className="flex flex-col md:flex-row   justify-between gap-[5%]">
         <div className="flex justify-center md:flex-none">

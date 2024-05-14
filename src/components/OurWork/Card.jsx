@@ -11,7 +11,7 @@ export default function Card({ img, name, description, size }) {
         <img
           src={img}
           alt="work-images"
-          className={`w-full ${cardClasses[size]}`}
+          className={`w-full ${cardClasses[size]} object-`}
         />
       </div>
 

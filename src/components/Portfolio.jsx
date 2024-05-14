@@ -12,7 +12,7 @@ import axia from "../assests/companiesLogo/axia.webp";
 
 export default function Portfolio() {
   return (
-    <div className="flex items-center pt-[10%] md:pt-[15%] pb-[2vh]    bg-[#111111]">
+    <div className="flex items-center pt-[10%] md:pt-[15%] pb-[2vh]    bg-[#121212]">
       <div className="mx-[2%] mx-[6%] sm:mx-[5%] xl:mx-[10%] 2xl:mx-[15%] flex flex-col gap-10 md:gap-32">
         <div className="flex flex-col gap-5 ">
           <h1 className="text-[#E62D2D] w-[100%] text-4xl md:text-6xl lg:text-7xl xl:text-8xl font-bold ">
@@ -25,7 +25,7 @@ export default function Portfolio() {
 
         {/* companies logo*/}
 
-        <div className="grid grid-cols-2 md:grid-cols-3 items-center gap-20">
+        <div className="grid grid-cols-2 md:grid-cols-3 items-center gap-10 xl:gap-20 2xl:gap-28">
           <img src={saaspect} alt="saaspact-logo" />
           <img src={wallmart} alt="Wallmart-logo" />
           <img src={blueStar} alt="BlueStarWater-logo" />

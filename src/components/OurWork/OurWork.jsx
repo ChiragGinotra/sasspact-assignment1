@@ -6,7 +6,7 @@ import work4 from "../../assests/work4.jpg";
 
 export default function OurWork() {
   return (
-    <div className=" flex items-center pt-[10%] md:pt-[5%] pb-[2vh]   bg-[#111111] ">
+    <div className=" flex items-center pt-[10%] md:pt-[5%] pb-[2vh]   bg-[#171717] ">
       <div className="flex flex-col mx-[2%] mx-[6%] sm:mx-[5%] xl:mx-[10%] 2xl:mx-[15%] gap-5 md:gap-8 xl:gap-10">
         <h2 className="  text-white text-4xl  md:text-5xl lg:text-7xl xl:text-8xl font-bold ">
           Our Work
