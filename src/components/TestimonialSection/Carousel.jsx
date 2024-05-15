@@ -11,7 +11,7 @@ export default function Carousel({ cards }) {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 3000,
+    autoplaySpeed: 2000,
     cssEase: "linear",
     pauseOnHover: false,
     responsive: [
@@ -61,7 +61,7 @@ export default function Carousel({ cards }) {
   return (
     <Slider {...settings}>
       {cards.map((card, index) => (
-        <div key={index}>
+        <div key={index} className="mx-[13vw] md:mx-[10vw]  2xl:mx-[17vw]">
           <ProfileCard {...card} />
         </div>
       ))}
