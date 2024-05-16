@@ -5,7 +5,7 @@ export default function LandingPage() {
 
     <div className="flex items-center  justify-center h-[100vh] mt-[3vh]  bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-[#530505] from-10%  to-[#121212] to-50%">
       <div className="px-auto max-w-6xl flex items-center  justify-center ">
-        <div className=" flex flex-col gap-5  md:gap-8 xl:gap-10 px-14 ">
+        <div className=" flex flex-col gap-5  md:gap-8 xl:gap-10 px-10 md:px-14 ">
           <h1 className="text-white text-4xl md:text-6xl lg:text-8xl    font-bold flex justify-center">
             We are Extensive.
           </h1>

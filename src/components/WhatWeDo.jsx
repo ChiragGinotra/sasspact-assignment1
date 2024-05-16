@@ -20,7 +20,7 @@ export default function WhatWeDo() {
           </div>
           {/* Right Box */}
 
-          <div className="w-[100%] md:w-[70vw] 2xl:w-[60vw] flex flex-col py-[5%] px-[5%] md:p-0 justify-center font-extrabold md:font-semibold lg:font-normal  text-4xl md:text-3xl lg:text-5xl xl:text-6xl gap-5 md:gap-16  xl:gap-20 text-[#E62D2D]  ">
+          <div className="w-[100%] md:w-[70vw] 2xl:w-[60vw] flex flex-col py-[5%] px-[3%] md:px-[5%] md:p-0 justify-center font-extrabold md:font-semibold lg:font-normal  text-4xl md:text-3xl lg:text-5xl xl:text-6xl gap-5 md:gap-16  xl:gap-20 text-[#E62D2D]  ">
             <div>Social Media Marketing</div>
             <div>SEO</div>
             <div>E-commerce Marketing</div>

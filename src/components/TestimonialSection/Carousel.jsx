@@ -39,32 +39,6 @@ export default function Carousel({ cards }) {
   // const settings = {
   //   dots: false,
   //   infinite: true,
-  //   speed: 500,
-  //   slidesToShow: 1,
-  //   slidesToScroll: 1,
-  //   autoplay: true,
-  //   autoplaySpeed: 2000,
-  //   cssEase: "linear",
-  //   pauseOnHover: false,
-  //   responsive: [
-  //     {
-  //       breakpoint: 768,
-  //       settings: {
-  //         slidesToShow: 1,
-  //       },
-  //     },
-  //     {
-  //       breakpoint: 480,
-  //       settings: {
-  //         slidesToShow: 1,
-  //       },
-  //     },
-  //   ],
-  // };
-
-  // const settings = {
-  //   dots: false,
-  //   infinite: true,
   //   display: flex,
   //   speed: 500, // Adjust speed for smoother transition
   //   slidesToShow: 1,
@@ -93,7 +67,7 @@ export default function Carousel({ cards }) {
   return (
     <Slider {...settings}>
       {cards.map((card, index) => (
-        <div key={index} className="px-4 2xl:px-32 ">
+        <div key={index} className="px-6 md:px-2 2xl:px-32 ">
           <ProfileCard {...card} />
         </div>
       ))}

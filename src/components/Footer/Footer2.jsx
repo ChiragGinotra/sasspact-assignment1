@@ -6,9 +6,9 @@ import { FaLinkedin } from "react-icons/fa";
 export default function Footer2() {
   const footerText = ["About Us", "Book Audit", "Contact", "Services", "Blogs"];
   return (
-    <div className="  pb-[3vh] md:pb-[6vh] lg:pb-[4vh] xl:pb-[8vh] bg-[#171717]">
-      <div className="mx-auto max-w-6xl flex flex-col justify-start gap-[4vh] md:gap-[2vh] xl:gap-[3vh]">
-        <div className="  flex  flex-col md:flex-row justify-between h-[30vh]  md:h-[15vh] lg:h-[100%] gap-10 md:gap-16 lg:gap-[24] xl:gap-32  pt-[5%] md:pt-[5%] px-6 md:px-8 lg:px-16 xl:px-8">
+    <div className="  pb-[6vh] md:pb-[6vh] lg:pb-[4vh] xl:pb-[8vh] bg-[#171717]">
+      <div className="mx-auto max-w-6xl flex flex-col justify-start gap-16 md:gap-[3vh] xl:gap-[3vh]">
+        <div className="  flex  flex-col md:flex-row justify-between h-[30vh]  md:h-[25vh] lg:h-[100%] gap-10 md:gap-16 lg:gap-[24] xl:gap-32  pt-[5%] md:pt-[5%] px-6 md:px-8 lg:px-16 xl:px-8">
           <div className="flex items-center">
             <img
               src={logo}
@@ -17,11 +17,11 @@ export default function Footer2() {
             />
           </div>
 
-          <div className="grid grid-cols-2  lg:grid-cols-5 md:items-center lg:items-start 2xl:items-center gap-y-[25%] md:gap-y-[1%] lg:gap-[3%] xl:gap-[15%]  text-white text-xl md:text-2xl lg:text-xl ">
+          <div className="grid grid-cols-2  lg:grid-cols-5  md:items-center lg:items-start 2xl:items-center gap-y-[25%] md:gap-[10%] lg:gap-[3%] xl:gap-[15%]  text-white text-xl md:text-2xl lg:text-xl ">
             {footerText.map((text, index) => (
               <div
                 key={index}
-                className="w-36 flex justify-start md:justify-center"
+                className="w-36 flex justify-start lg:justify-center"
                 onClick={(e) => e.preventDefault()}
               >
                 {text}
