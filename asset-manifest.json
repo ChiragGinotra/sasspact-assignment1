@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/sasspact-assignment1/static/css/main.ddc03cd7.css",
+    "main.js": "/sasspact-assignment1/static/js/main.bbd7e1e9.js",
+    "static/media/work2.png": "/sasspact-assignment1/static/media/work2.f01dfbd09bdc7b7443bc.png",
+    "static/media/work3.png": "/sasspact-assignment1/static/media/work3.650d9452ac5e79ef69e0.png",
+    "static/media/work1.png": "/sasspact-assignment1/static/media/work1.d9008a292d294705eb09.png",
+    "static/media/work4.jpg": "/sasspact-assignment1/static/media/work4.6995d4c83a24bd557c15.jpg",
+    "static/media/saaspect.png": "/sasspact-assignment1/static/media/saaspect.655490d1bf689b6814cd.png",
+    "static/media/person.svg": "/sasspact-assignment1/static/media/person.9a76a7487297737e46f50a5eb78b3ae8.svg",
+    "static/media/logo512.png": "/sasspact-assignment1/static/media/logo512.756d0e6a4c28366ee6a6.png",
+    "static/media/doctorAujla.png": "/sasspact-assignment1/static/media/doctorAujla.b05b89af93e01b163fc9.png",
+    "static/media/wallmart.png": "/sasspact-assignment1/static/media/wallmart.5f53c372285e23a3cca6.png",
+    "static/media/robinLisa.webp": "/sasspact-assignment1/static/media/robinLisa.c43e32d1622cdbc81f2a.webp",
+    "static/media/neoCode.png": "/sasspact-assignment1/static/media/neoCode.75d26d50b3bd29435a90.png",
+    "static/media/torva.png": "/sasspact-assignment1/static/media/torva.11c175acae895b4580be.png",
+    "static/media/gamerAdvantage.webp": "/sasspact-assignment1/static/media/gamerAdvantage.1796468645f4732b3eba.webp",
+    "static/media/axia.webp": "/sasspact-assignment1/static/media/axia.08dde121bd4519f78020.webp",
+    "static/media/moderneid.webp": "/sasspact-assignment1/static/media/moderneid.256cec7cfe344214340c.webp",
+    "static/media/slick.svg": "/sasspact-assignment1/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/sasspact-assignment1/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/sasspact-assignment1/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/sasspact-assignment1/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/sasspact-assignment1/index.html",
+    "main.ddc03cd7.css.map": "/sasspact-assignment1/static/css/main.ddc03cd7.css.map",
+    "main.bbd7e1e9.js.map": "/sasspact-assignment1/static/js/main.bbd7e1e9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ddc03cd7.css",
+    "static/js/main.bbd7e1e9.js"
+  ]
+}
