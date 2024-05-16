@@ -20,8 +20,8 @@ export default function Header() {
   };
 
   return (
-    <header className=" fixed w-[100vw]  top-0 z-10    bg-[#0D0D0D] ">
-      <div className="flex justify-between mx-[2%] h-[8vh] md:h-[5vh] xl:mx-[10%] 2xl:mx-[15%] py-[10%] md:py-[6%] lg:py-[4%] xl:py-[3%] 2xl:py-[3%]">
+    <header className=" fixed w-[100vw] overflow-x-hidden  top-0 z-10    bg-[#0D0D0D] ">
+      <div className="flex justify-between h-[8vh] mx-auto max-w-6xl px-4 py-[10%] md:py-[6%] lg:py-[4%] xl:py-[3%] 2xl:py-[3%]">
         <div className="flex items-center">
           <img src={logo} alt="Logo" className="w-16 h-16" />
         </div>

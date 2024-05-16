@@ -25,14 +25,16 @@ export default function HomePageLayout() {
         {/* Add more meta tags as needed */}
       </Helmet>
       <Header />
-      <LandingPage />
-      <WhoWeAre />
-      <WhatWeDo />
-      <OurWork />
-      <Portfolio />
-      <Testimonial />
-      <Footer1 />
-      <Footer2 />
+      <div className="overflow-scroll overflow-x-hidden w-[100vw]">
+        <LandingPage />
+        <WhoWeAre />
+        <WhatWeDo />
+        <OurWork />
+        <Portfolio />
+        <Testimonial />
+        <Footer1 />
+        <Footer2 />
+      </div>
     </>
   );
 }

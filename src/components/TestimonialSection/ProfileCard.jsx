@@ -19,7 +19,7 @@ export default function ProfileCard({
           />
         </div>
 
-        <div className="flex flex-col   justify-center  text-[#E62D2D] text-xl md:text-3xl lg:text-5xl  font-bold md:font-normal">
+        <div className="flex flex-col   justify-start  text-[#E62D2D] text-xl md:text-3xl lg:text-5xl  font-bold md:font-normal">
           <div className=" text-center md:text-end">{`“${quote}”`}</div>
         </div>
       </div>

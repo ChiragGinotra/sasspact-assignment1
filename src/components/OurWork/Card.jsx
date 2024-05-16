@@ -1,17 +1,17 @@
 export default function Card({ img, name, description, size }) {
   const cardClasses = {
-    small: "h-64 md:h-[18rem] lg:h-[22rem] xl:h-[26rem] 2xl:h-[30rem]", // Adjust height as needed
+    small: "h-64 md:h-[18rem] lg:h-[22rem] xl:h-[26rem] ", // Adjust height as needed
 
     large: "h-64 md:h-96 lg:h-full",
   };
   return (
-    <div className="border-none shadow-none flex flex-col gap-[2vh]  bg-opacity-50 ">
+    <div className="border-none shadow-none flex flex-col gap-[2vh]  md:gap-3 bg-opacity-50 ">
       {/* inset-0 flex flex-col  px-4 py-6 */}
-      <div>
+      <div className={`w-full ${cardClasses[size]}`}>
         <img
           src={img}
           alt="work-images"
-          className={`w-full ${cardClasses[size]} object-`}
+          className={`w-full ${cardClasses[size]} object-cover`}
         />
       </div>
 
