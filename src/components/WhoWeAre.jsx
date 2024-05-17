@@ -7,7 +7,7 @@ export default function WhoWeAre() {
             What We have to Say About Our Company?
           </p>
 
-          <p className="text-sm md:text-md lg:text-xl   xl:text-2xl text-white font-normal leading-snug">
+          <p className=" text-sm md:text-md lg:text-xl   xl:text-2xl text-white font-normal leading-snug">
             Welcome to your one-stop shop for all of your digital marketing
             requirements! We are a full-service digital marketing agency that
             specializes in developing tailored solutions to assist businesses in

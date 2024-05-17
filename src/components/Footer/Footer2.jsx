@@ -6,7 +6,7 @@ import { FaLinkedin } from "react-icons/fa";
 export default function Footer2() {
   const footerText = ["About Us", "Book Audit", "Contact", "Services", "Blogs"];
   return (
-    <div className="  pb-[6vh] md:pb-[6vh] lg:pb-[4vh] xl:pb-[8vh] bg-[#171717]">
+    <div className="  pb-[6vh] md:pb-[6vh] lg:pb-[4vh] xl:pb-[8vh] bg-[#171717] border-t-4 border-[#111111]">
       <div className="mx-auto max-w-6xl flex flex-col justify-start gap-16 md:gap-[3vh] xl:gap-[3vh]">
         <div className="  flex  flex-col md:flex-row justify-between h-[30vh]  md:h-[25vh] lg:h-[100%] gap-10 md:gap-16 lg:gap-[24] xl:gap-32  pt-[5%] md:pt-[5%] px-6 md:px-8 lg:px-16 xl:px-8">
           <div className="flex items-center">

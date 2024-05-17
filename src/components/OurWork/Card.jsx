@@ -20,7 +20,7 @@ export default function Card({ img, name, description, size }) {
         <h2 className="text-4xl lg:text-5xl  text-[#E62D2D]  font-normal  uppercase">
           {name}
         </h2>
-        <p className="font-normal  text-sm lg:text-md text-white">
+        <p className="font-light  text-sm  lg:text-[16px] text-white  tracking-wide">
           {description}
         </p>
       </div>

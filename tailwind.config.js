@@ -15,7 +15,8 @@ module.exports = {
         8000: "8000ms",
       },
       fontFamily: {
-        playfair: ["Playfair Display", "serif"],
+        playfair: ['"Playfair Display"'],
+        sourcesans: ['"Source Sans Pro"'],
       },
     },
   },
