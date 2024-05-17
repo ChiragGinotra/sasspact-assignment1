@@ -13,13 +13,13 @@ const DrawerContent = ({ menu, closeDrawer, isOpen }) => {
       leaveFrom="translate-x-0"
       leaveTo="translate-x-full"
     >
-      <div className="bg-[#111111] w-full md:w-[63%] lg:w-1/2 xl:w-1/3 2xl:w-1/5  shadow-md   p-4 transform transition-transform  transition duration-1000 ease-in-out translate-x-0">
+      <div className="bg-[#111111] w-full md:w-[63%] lg:w-1/2 xl:w-[40%] 2xl:w-[30vw]  shadow-md   p-4 transform transition-transform  transition duration-1000 ease-in-out translate-x-0">
         <div className="flex justify-end">
           <button
             className=" p-2 rounded-full bg-gray-800"
             onClick={closeDrawer}
           >
-            <IoClose className="w-7 h-7 text-red-500" />
+            <IoClose className="w-7 h-7 text-[#E62D2D]" />
           </button>
         </div>
         <div className="px-[10%] h-screen text-red flex mt-20 md:mt-0 md:pb-28 items-start md:items-center transition ease-in-out duration-1000 transition-opacity ">
